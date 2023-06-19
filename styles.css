@@ -1,0 +1,30 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(7, 70px);
+    justify-content: center;
+    align-content: center;
+    background-color: #0079FF;
+    gap: 10px;
+}
+
+.i1 {
+    grid-area: 1/1/2/5;
+}
+
+#inp {
+    font-size: 50px;
+    width: 1233px;
+    height: 65px;
+}
+
+
+
+button {
+    font-size: xx-large;
+    display: inline;
+    height: 70px;
+    width: 310px;
+    background-color: #2B2730;
+}
